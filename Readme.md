@@ -4,6 +4,7 @@ This is a sample C project uses make build system.
 
 ## Prerequisites
 - Coverity analysis version 2022.3.0
+- Modify Coverity installation path [coverity.conf](https://github.com/inbharajmani/sample_make_c_coverity/blob/8c1ae26e5ad9f5ea2d9481b48a04cd6ac3cba61e/coverity.conf#L36)
 
 ## Native Build
 ```
@@ -51,4 +52,4 @@ cov-commit-defects --dir coverity/ --stream local_coverity --url **url** --user 
 
 ## Violation
 
-- If Coverity succeds it will capture the deadcode present [at this line](https://github.com/inbharajmani/sample_bazel_cpp_coverity/blob/9e1a3d0d1e9e24c113bd1db467a3bfaf396ec735/main/hello-world.cc#L20)
+- If Coverity succeds it will capture the deadcode present [at this line](https://github.com/inbharajmani/sample_make_c_coverity/blob/8c1ae26e5ad9f5ea2d9481b48a04cd6ac3cba61e/src/main.c#L39)
