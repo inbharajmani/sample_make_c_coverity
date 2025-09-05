@@ -1,2 +1,4 @@
 coverity/*
 *.o
+bin/final
+.codesight
