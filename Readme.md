@@ -3,7 +3,7 @@
 This is a sample C project uses make build system.
 
 ## Prerequisites
-- Coverity analysis version 2022.3.0
+- Coverity analysis version 2023.6.0
 - Modify Coverity installation path [coverity.conf](https://github.com/inbharajmani/sample_make_c_coverity/blob/8c1ae26e5ad9f5ea2d9481b48a04cd6ac3cba61e/coverity.conf#L36)
 
 ## Native Build
@@ -47,7 +47,7 @@ cov-analyze --dir coverity/ --all --verbose 2
 - Cov-commit
 
 ```
-cov-commit-defects --dir coverity/ --stream local_coverity --url **url** --user **username** --password **password**
+cov-commit-defects --dir coverity/ --stream inbmani_test --url **url** --user **username** --password **password**
 ```
 
 ## Violation
